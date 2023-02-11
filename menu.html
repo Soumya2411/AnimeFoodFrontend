@@ -5,6 +5,9 @@
         background-image: url('image/4248917.webp');
         background-size: cover;
         height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       
       .overlay {
@@ -19,6 +22,19 @@
         width: 800px;
         height: 600px;
       }
+      .underlay {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background-color: blueviolet;
+      }
+      
+      .underlay img {
+        width: 800px;
+        height: 800px;
+        padding: 20px;
+
+      }
       h1 {
         background-color: purple;
         color: white;
@@ -29,11 +45,17 @@
     </style>
   </head>
   <body>
-    <h1>Look For an AR view of our exotic dishes! </h1>
+    <div id="hel">
+    <h1>Look for an exotic view of our dishes!</h1>
     <div class="bg">
       <div class="overlay">
         <img src="image\WhatsApp Image 2023-02-11 at 09.12.48.jpg" alt="Overlay Image">
       </div>
     </div>
+    <div class="underlay">
+      <img src="image\WhatsApp Image 2023-02-11 at 09.22.10.jpg" alt="Underlay Image">
+    </div>
+</div>
   </body>
+</html>
 </html>
