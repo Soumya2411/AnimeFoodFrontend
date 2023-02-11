@@ -855,6 +855,7 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 76%;
+
     transition: .3s;
   }
   
@@ -965,4 +966,10 @@ section{
     align-items: center;
     box-shadow: 0 4px 30px rgba(0,0,0,.05);
   }
-  
+  .menu11::-webkit-scrollbar {
+    display: none;
+  }
+  .menu11 button
+  {
+    background-color: #171717;
+  }
